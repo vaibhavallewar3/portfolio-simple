@@ -1,5 +1,3 @@
-import project01 from '../../public/assets/project01.png';
-import project02 from '../../public/assets/project02.png';
 
 // TIMELINE WORK EXPERIENCE
 const experiences = [
@@ -16,12 +14,12 @@ const experiences = [
 const projects = [
     {
         title: "SwiftBuy",
-        preview: project01,
+        preview: 'project01.png',
         url: "https://swiftbuy-two.vercel.app"
     },
     {
         title: "Gadchiroli Travels",
-        preview: project02,
+        preview: 'project02.png',
         url: "https://gadchiroli-travel.web.app"
     },
 ]
@@ -115,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="portfolio-item-inner shadow-dark">
                 <a href=${item.url} title=${item.title.toUpperCase()} target="blank"
                     class="portfolio-img">
-                    <img src="${item.preview}" alt=${item.title.toUpperCase()}>
+                    <img src="https://vaibhavallewar3.github.io/portfolio-simple/public/assets/${item.preview}" alt=${item.title.toUpperCase()}>
                 </a>
             </div>
         `;
