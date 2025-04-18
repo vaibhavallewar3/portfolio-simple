@@ -14,12 +14,12 @@ const experiences = [
 const projects = [
     {
         title: "SwiftBuy",
-        preview: "./assets/project01.png",
+        preview: "../../public/assets/project01.png",
         url: "https://swiftbuy-two.vercel.app"
     },
     {
         title: "Gadchiroli Travels",
-        preview: "./assets/project02.png",
+        preview: "../../public/assets/project02.png",
         url: "https://gadchiroli-travel.web.app"
     },
 ]
