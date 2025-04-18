@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="portfolio-item-inner shadow-dark">
                 <a href=${item.url} title=${item.title.toUpperCase()} target="blank"
                     class="portfolio-img">
-                    <img src="./public/assets/${item.preview}" alt=${item.title.toUpperCase()}>
+                    <img src="./assets/${item.preview}" alt=${item.title.toUpperCase()}>
                 </a>
             </div>
         `;
