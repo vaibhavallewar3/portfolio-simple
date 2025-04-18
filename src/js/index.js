@@ -14,12 +14,12 @@ const experiences = [
 const projects = [
     {
         title: "SwiftBuy",
-        preview: `${location.origin}/portfolio-simple/assets/project01.png`,
+        preview: 'project01.png',
         url: "https://swiftbuy-two.vercel.app"
     },
     {
         title: "Gadchiroli Travels",
-        preview: `${location.origin}/portfolio-simple/assets/project02.png`,
+        preview: 'project02.png',
         url: "https://gadchiroli-travel.web.app"
     },
 ]
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="portfolio-item-inner shadow-dark">
                 <a href=${item.url} title=${item.title.toUpperCase()} target="blank"
                     class="portfolio-img">
-                    <img src=${item.preview} alt=${item.title.toUpperCase()}>
+                    <img src="./public/assets/${item.preview}" alt=${item.title.toUpperCase()}>
                 </a>
             </div>
         `;
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <p>${item.description}</p>
             </div>
         `;
-        
+
         skillContainer.appendChild(skillItem);
     });
 });
